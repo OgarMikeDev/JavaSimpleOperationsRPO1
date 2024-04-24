@@ -114,5 +114,34 @@ public class Main {
         Илья.
         Написать метод, который вычисляет площадь и периметр квадрата.
          */
+        //хитров
+    public class Circle {
+        public static double calculate(double radius) {
+            return Math.PI * radius;
+        }
+
+        public static void main(String[] args) {
+            double radius = 5;
+            double area = calculate(radius);
+            System.out.println("Площадь круга с радиусом " + radius + " = " + area);
+        }
+    }
+    //косыченко
+    public class main {
+        public static void main(String[] args) {
+            main main = new main();
+            main.checkNumber(5); // Выведет "Число положительное"
+            main.checkNumber(-3); // Выведет "Число отрицательное"
+            main.checkNumber(0); // Выведет "Число равно нулю"    }
+        }
+        void checkNumber(int number) {
+            if (number > 0) {
+                System.out.println("Число положительное");
+            } else if (number < 0) {
+                System.out.println("Число отрицательное");
+            } else {
+                System.out.println("Число равно нулю");
+            }
+        }
     }
 }
