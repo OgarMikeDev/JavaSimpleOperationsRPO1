@@ -2,6 +2,7 @@ package main;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println( findPercent(100, 15));
         /*
         Маша Авдалимова.
         Написать метод, который принимает строку и
@@ -114,5 +115,9 @@ public class Main {
         Илья.
         Написать метод, который вычисляет площадь и периметр квадрата.
          */
+    }
+
+    public static int findPercent(int num, int percent) {
+        return num * percent / 100;
     }
 }
