@@ -119,6 +119,5 @@ public class Main {
 
     public static int findPercent(int num, int percent) {
         return num * percent / 100;
-        //a
     }
 }
