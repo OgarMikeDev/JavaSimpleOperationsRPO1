@@ -115,7 +115,7 @@ public class Main {
         Написать метод, который вычисляет площадь и периметр квадрата.
          */
         //хитров
-    public class Circle {
+     public static void Circle {
         public static double calculate(double radius) {
             return Math.PI * radius;
         }
