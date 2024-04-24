@@ -115,4 +115,23 @@ public class Main {
         Написать метод, который вычисляет площадь и периметр квадрата.
          */
     }
+
+    public static boolean compareAndPrint(int a, int b) {
+        boolean bool = false;
+        if (a == b) {
+            bool = true;
+        } else if (a > b) {
+            System.out.println(a);
+            System.out.println(b);
+            bool = false;
+        } else if (b > a) {
+            System.out.println(a);
+            System.out.println(b);
+            bool = false;
+        }
+        return bool;
+    }
 }
+
+    // Пример использования метода
+
