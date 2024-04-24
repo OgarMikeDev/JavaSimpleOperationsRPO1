@@ -114,5 +114,21 @@ public class Main {
         Илья.
         Написать метод, который вычисляет площадь и периметр квадрата.
          */
+
+        /*
+        Огарь Михаил.
+        Написать метод,
+        который принимает целое число и проверяет,
+        кратно ли оно числу 6.
+         */
+        verificationNumber(31);
+    }
+
+    public static void verificationNumber(int number) {
+        if (number % 6 == 0) {
+            System.out.print("Number multiples 6!");
+        } else {
+            System.out.print("Number not multiples 6!");
+        }
     }
 }
