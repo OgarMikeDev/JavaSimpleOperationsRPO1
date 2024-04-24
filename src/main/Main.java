@@ -19,13 +19,8 @@ public class Main {
         содержащий элементы обоих списков без повторений.
          */
 
-        /*
-        Савченко Захар.
-        Написать метод для
-        обработки кода,
-        который содержит один аргумент –
-        строку и распечатать количество букв и цифр в ней.
-         */
+        // Савченко
+        textAnalyze("qwerty123");
 
         /*
         Роман.
@@ -109,5 +104,19 @@ public class Main {
         начислить ему премию 200$,
         вывести итоги в консоль.
          */
+    }
+
+    public static void textAnalyze(String text){
+        int numCount = 0;
+        int wordCount = 0;
+        for (int i = 0; i < text.length(); i++) {
+            if (Character.isDigit(text.charAt(i))){
+                numCount++;
+            }
+            else if (Character.isLetter(text.charAt(i))){
+                wordCount++;
+            }
+        }
+        System.out.println("text: " + text + " nums: " + numCount + " words: " + wordCount);
     }
 }
